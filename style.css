@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+    margin-top: 3.5%;
+    width: 100%;
+}
+
+p {
+    font-size: 130%;
+    margin: auto;
+    width: 90%;
+    padding: 4px;
+    line-height: 2.5rem;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    font-size: 60px;
+    margin: 0.5%;
+    font-weight: 500;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    height: 350px;
+}
+
+.head_text {
+    position: absolute;
+	top: 20%;
+	left: 0;
+    width: 100%;
+    z-index: 1;
+    line-height: 180%;
+    text-align: center;
+    margin:0;
+    font-size: 3.5rem;
+}
+
+span {
+    color: white;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+#span2 {
+    font-size: 2.5rem;
+}
+
+
+
+.t0 {
+    margin-top: 2%;
+    margin-left: 2.5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.cards {
+    width:  20%;
+}
+
+.button {
+    width: 75%;
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 2%;
+}
+
+.button:hover {
+    background-color: lightgrey;
+}
+
+.button:visited {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    width: 30%;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 130%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 0.5%;
+}
+
+.menu {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 0.5%;
+}
+
+
+li {
+    color: DarkSlateGray;
+    background-color: white;
+    border: solid DarkSlateGray 1.5px;
+    padding: 0.5%;
+    width: 130px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.here {
+    background-color: DarkSlateGray;
+    color: white;
+    font-weight: 500;
+}
+
+li:hover {
+    color: white;
+    background-color: darkgray;
+    border: solid darkgrey 1.5px;    
+
+}
+
+li:visited {
+    color: white;
+}
+
+.h3_main {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 2% 0;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    margin: auto;
+    width: 100%;
+    top:0;
+}
+
+.fototext {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.imagefirst {
+    margin: 0;
+    height: 100%;
+}
+
+#text0 {
+    font-size: 110%;
+    text-align: left;
+    padding-top: 1%;
+    background-color: Gainsboro;
+}
+
+.logo_foot {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 1%;
+}
+
+.footer {
+    display: block;
+    background-color: darkslategray;
+    width: 100%;
+    padding: 1%;
+    color: darkgray;
+    font-size: 90%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*index3.html*/
+
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.help_img {
+    width: 20%;
+    margin: 2.5%;
+}
+
+.help_article {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    padding: 2%;
+}
+
+.t1 {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2rem;
+}
+
+.p_cards {
+    width: 75%;
+}
+
+.help_title {
+    text-align: center;
+    margin: 0;
+    padding: 3%;
+    padding-bottom: 0;
+    padding-top: 1%;
+    font-size: 1.4rem;
+}
+
+.h2_title {
+    margin: 1%;
+}
+
+hr {
+    margin: auto;
+    margin-top: 0;
+}
+
+
+/*index1.html*/
+
+.fact_card {
+    padding: 2%;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.h3_fact {
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+    margin-top:0;
+}
+
+.p_fact {
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.brown {
+    background-color: rgba(51, 27, 17,0.6);
+    padding: 3.5%;
+}
+
+.darkgrey {
+    background-color: darkgray;
+    padding: 3.5%;
+}
+
+.darkslategrey {
+    background-color: rgba(47, 79, 79,0.8);
+    color: white;
+    padding: 3.5%;;
+}
+
+.quote {
+    border-left: 2px solid rgba(47, 79, 79,0.8);
+    margin: auto;
+    font-size: 1.3rem;
+    width: 68%;
+    padding: 1%;
+    color: rgb(140, 140, 140);
+    line-height: 150%;
+}
+
+/*index2.html*/
+
+.h2_fond {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+.p_start {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.help_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 3%;
+    font-size: 0.9rem;
+}
+
+.fond_img {
+    width: 30%;
+    margin: 2%;
+}
+
+.fond_p_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.fond_title {
+    text-align: left;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.fond_p {
+    margin: 1%;
+}
+
+.contacts {
+    margin: 1%;
+}
+
+#contacts {
+    width: 20%;
+}
+
+.fond_a:hover {
+    color: black;
+}
+
+.fond_a {
+    text-decoration: underline;
+}
